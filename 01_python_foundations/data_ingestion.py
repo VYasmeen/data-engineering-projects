@@ -3,7 +3,7 @@ import csv
 def read_csv(file_path):
   records = []
 
-  with open(file_path, mode="r, encoding="utf-8") as file:
+  with open(file_path, mode="r", encoding="utf-8") as file:
       reader = csv.DictReader(file)
       for row in reader:
           records.append(row)
