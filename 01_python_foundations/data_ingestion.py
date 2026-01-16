@@ -10,5 +10,5 @@ def read_csv(file_path):
   return records
 
 if __name__ == "__main__":
-    data=read_csv("data/sample_data.csv")
-    print("Total records:" len(data))
+    data = read_csv("data/sample_data.csv")
+    print("Total records:", len(data))
