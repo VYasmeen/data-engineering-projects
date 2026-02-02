@@ -1,6 +1,10 @@
 from data_ingestion import read_csv
 
-def clean_data(records):
+class DataCleaner:
+    def __init__(self.records):
+        self.records=records
+
+def clean(self):
     cleaned_records =[]
 
     for row in records:
@@ -10,5 +14,7 @@ def clean_data(records):
 
 if __name__=="__main__":
     data=read_csv("data/ecommerce_sales.csv")
-    cleaned=clean_data(data)
+    cleaner=DataCleaner(data)
+    cleaned=cleaner.clean()
     print("Cleaned records:",len(cleaned))
+    
