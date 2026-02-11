@@ -1,7 +1,7 @@
 from data_ingestion import read_csv
 
 class DataCleaner:
-    def __init__(self.records):
+    def __init__(self,records):
         self.records=records
 
 def clean(self):
